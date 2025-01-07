@@ -1,4 +1,6 @@
-
+-- This if for importing the data for the Data cleaning project
+-- from Alex the Analysts youtube series "Data Analyst Bootcamp"
+-- https://www.youtube.com/watch?v=4UltKCnnnTA&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=20
 CREATE TABLE layoffs (
                company TEXT, 
                location TEXT,
