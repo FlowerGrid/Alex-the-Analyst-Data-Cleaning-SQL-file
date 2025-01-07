@@ -1,5 +1,4 @@
--- PRAGMA foreign_keys=OFF;
--- BEGIN TRANSACTION;
+
 CREATE TABLE layoffs (
                company TEXT, 
                location TEXT,
@@ -2372,4 +2371,3 @@ INSERT INTO layoffs VALUES('Yahoo','SF Bay Area','Consumer',1600,'0.2','2/9/2023
 INSERT INTO layoffs VALUES('Hibob','Tel Aviv','HR',70,'0.3','3/30/2020','Series A','Israel',45);
 INSERT INTO layoffs VALUES('Casper','New York City','Retail',NULL,NULL,'9/14/2021','Post-IPO','United States',339);
 INSERT INTO layoffs VALUES('Wildlife Studios','Sao Paulo','Consumer',300,'0.2','11/28/2022','Unknown','Brazil',260);
--- COMMIT;
